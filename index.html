@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Ulang Tahun Jesselyn</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Invitation Sweet Seventeen</h1>
+      <p class="subtitle">Join us with me</p>
+    </header>
+
+    <div class="invitation-card">
+      <h2>Jesselyn Tabitha Angels D.</h2>
+      <div class="event-details">
+        <p><i class="fas fa-calendar-alt"></i> Sabtu, 23 Agustus 2025</p>
+        <p><i class="fas fa-clock"></i> 17:30 WIB</p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> 
+          <a href="https://www.google.com/maps?..."
+             target="_blank" style="color:var(--primary);font-weight:600;text-decoration:none">
+            Alam Sari Bungursari
+          </a>
+        </p>
+      </div>
+
+      <div id="countdown" class="countdown">
+        <div class="time-box"><div id="days">0</div><span>Hari</span></div>
+        <div class="time-box"><div id="hours">0</div><span>Jam</span></div>
+        <div class="time-box"><div id="minutes">0</div><span>Menit</span></div>
+        <div class="time-box"><div id="seconds">0</div><span>Detik</span></div>
+      </div>
+      <p id="eventStatus"></p>
+    </div>
+
+    <div class="invitation-card">
+      <h2 class="section-title">Cek Nama Tamu</h2>
+      <p>Silakan cek apakah nama anda ada di daftar tamu undangan</p>
+
+      <div class="guest-search">
+        <div class="search-box">
+          <input type="text" class="search-input" placeholder="Masukkan nama lengkap..." id="guestName"/>
+          <button class="search-btn" id="searchBtn"><i class="fas fa-search"></i> Cek</button>
+        </div>
+
+        <div class="notification success" id="successNotification">
+          <i class="fas fa-check-circle"></i> Selamat! Nama anda ada di daftar tamu.
+        </div>
+
+        <div class="notification error" id="errorNotification">
+          <i class="fas fa-exclamation-circle"></i> Maaf, nama anda tidak ditemukan di daftar.
+        </div>
+      </div>
+
+      <h2 class="section-title">Daftar Tamu</h2>
+      <div class="guest-list" id="guestList"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Sweet Seventeen Jesselyn. Created by @jvshua.bnahor.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
