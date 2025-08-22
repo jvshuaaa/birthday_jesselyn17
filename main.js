@@ -41,6 +41,8 @@ const guests = [
 { name: "Alifa Khalifah Ghaisani", note: "Undangan" },
 { name: "Jesica Tian Anggraini", note: "Undangan" },
 { name: "Richie Sivali", note: "Undangan" },
+{ name: "Keisha Gowin", note: "Undangan" },
+{ name: "Bu Ulfi", note: "Undangan" },
 
   // Tambahan kelas 9B
   { name: "Nabil 9B", note: "Undangan" },
@@ -179,6 +181,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
   });
 });
+
 
 
 
