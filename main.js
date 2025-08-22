@@ -93,6 +93,7 @@ const guests = [
   { name: "Evan", note: "Undangan" },
   { name: "Aldi", note: "Undangan" },
   { name: "Kezia", note: "Undangan" },
+  { name: "Arnold", note: "Undangan"},
   { name: "Justin Putra Wirawan", note: "Undangan" },
   { name: "Kimberlyne", note: "Undangan" },
   { name: "Brigitha Evelyne", note: "Undangan" },
@@ -178,3 +179,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
   });
 });
+
